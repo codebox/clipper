@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>Clipper Test Page</title>
+		<script src="clipper.js"></script>
+		<style>
+			.box{
+				float: left;
+				height: 5em;
+				width: 5em;
+				border: 1px solid;
+				margin: 1em;
+				padding: 1em;
+				font-size: 2em;
+			}
+			#btnBox{
+				clear: left;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Clipper Test Page</h1>
+		<p>This is a test page for Clipper. Use the <em>Start Clipping</em> button to activate the Clipper, then click on page elements to remove them.</p>
+		<p class="box">
+			Box 1
+		</p>
+		<p class="box">
+			Box 2
+		</p>
+		<p class="box">
+			Box 3
+		</p>
+		<p class="box">
+			Box 4
+		</p>
+		<p id="btnBox">
+			<button onclick="clipper()">Start Clipping</button>
+		</p>
+	</body>
+</html>
